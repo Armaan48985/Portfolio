@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import { FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -55,12 +56,12 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+        <div className="socials flex flex-row gap-6">
+          <Link href="https://github.com/Armaan48985">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          <Link href="https://twitter.com/armaan23____">
+            <span className="text-4xl items-end flex pt-1"><FaTwitter /></span>
           </Link>
         </div>
       </div>

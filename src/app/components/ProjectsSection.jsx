@@ -7,57 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "DSA Project",
     description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/dsa.png",
+    tag: ["All", "FrontEnd"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://dsa-project-alpha.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Instagram Clone",
     description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/insta.png",
+    tag: ["All", "FrontEnd"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "Youtube Clone",
     description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/yt.png",
+    tag: ["All", "FrontEnd"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://youtube-clone-flame-eta.vercel.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Travel App",
     description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    image: "/images/projects/travel.png",
+    tag: ["All", "FrontEnd"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://travel-app-ruddy.vercel.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
+    title: "3D Shirt App",
     description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/3d.png",
+    tag: ["All", "FrontEnd"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://github.com/Armaan48985/3D_shirt-app/tree/main",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "Movie App",
     description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/movie.png",
+    tag: ["All", "BackEnd"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://movie-app-nine-dusky.vercel.app/",
   },
 ];
 
@@ -97,7 +97,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="BackEnd   "
+          name="BackEnd"
           isSelected={tag === "BackEnd"}
         />
       </div>
