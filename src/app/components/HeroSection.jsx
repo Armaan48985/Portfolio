@@ -34,7 +34,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a MERN stack web developer with a lot of creative ideas
+            I&apos;m a MERN stack web developer with a lot of creative ideas
           </p>
           <div>
             <Link
